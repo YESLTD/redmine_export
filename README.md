@@ -13,14 +13,14 @@ Django Application tested on Python 3.5.2 + Django 1.9, but shoud work on Python
 2. Configure local application's settings.py as necessary.
 3. In projects main settings.py:
   1. Update INSTALLED_APPS: 
-  '''
+  ```
   INSTALLED_APPS = [
     ...,
     'rm_export',
   ]
-  '''
+  ```
   2. Add an entry into project's root urlconf like this:
-  '''
+  ```
   ...
   from rm_export import views as rm_views
   ...
@@ -28,5 +28,5 @@ Django Application tested on Python 3.5.2 + Django 1.9, but shoud work on Python
     ...,
     url('^rmexport/$', rm_views.ExportCsv.as_view()),
   ]
-  '''
+  ```
 4. Restart your django web-project as appropriate.
