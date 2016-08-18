@@ -10,7 +10,7 @@ Django Application tested on Python 3.5.2 + Django 1.9, but shoud work on Python
 
 ## Installation
 1. Copy `rm_export` folder into any appropriate Django project with user auth installed.
-2. Configure local application's settings.py as necessary.
+2. Configure local application's `rm_export/settings.py` as necessary.
 3. In projects main settings.py:
   1. Update INSTALLED_APPS: 
   ```
