@@ -30,3 +30,6 @@ Django Application tested on Python 3.5.2 + Django 1.9, but shoud work on Python
   ]
   ```
 4. Restart your django web-project as appropriate.
+
+## Screenshots
+![Web-form](http://amomzyakov.pythonanywhere.com/static/exch/rm_export.png)
