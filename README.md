@@ -3,6 +3,7 @@ A simple django app to get detailed report on tickets in Redmine.
 Currently available in russian.
 
 ## Requirements
+Requires python redmine library installed (can be found at https://github.com/maxtepkeev/python-redmine.git)
 App tested with Redmine 2.5.2.
 In order to get it working don't forget to swich on Redmine's REST web-service on Settings page, authentication tab.
 
