@@ -7,7 +7,7 @@ Requires python redmine library installed (can be found at https://github.com/ma
 App tested with Redmine 2.5.2.
 In order to get it working don't forget to swich on Redmine's REST web-service on Settings page, authentication tab.
 
-Django Application tested on Python 3.5.2 + Django 1.9, but shoud work on Python 2.7.x and 3.3.x.
+Application's been tested on Python 3.5.2 + Django 1.9, but shoud work on Python 2.7.x and 3.3.x.
 
 ## Installation
 1. Copy `rm_export` folder into any appropriate Django project with user auth installed.
